@@ -74,7 +74,6 @@ p {
 }
 
 #link,
-#id1,
 a[name='id1'],
 a#link {
 	display: none;
