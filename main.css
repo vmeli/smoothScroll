@@ -35,6 +35,7 @@ p {
 	background-color: teal;
 }
 
+.col-md-4:nth-of-type(3) div,
 .col-md-4:nth-of-type(2) div {
 	background-color: #1363A9;
 }
@@ -43,6 +44,7 @@ p {
 	background-color: #F248B7;
 }
 
+.col-md-4:nth-of-type(3) div,
 .col-md-4:first-of-type div,
 .col-md-4:last-of-type div,
 .col-md-4:nth-of-type(2) div {
@@ -71,6 +73,8 @@ p {
             align-items: center;
 }
 
+#link,
+#id1,
 a[name='id1'],
 a#link {
 	display: none;
@@ -79,6 +83,8 @@ a#link {
 
 @media (max-width: 800px){
 	
+	#link,
+	#id1,
 	a[name='id1'],
 	a#link {
 		display: block;
